@@ -5,3 +5,5 @@ cd Postwork1
 curl -O http://files.grouplens.org/datasets/movielens/ml-100k-README.txt
 cd ..
 cp -a Postwork1 Postwork1.1
+cd Postwork1.1
+mkdir Postwork1.1.1
