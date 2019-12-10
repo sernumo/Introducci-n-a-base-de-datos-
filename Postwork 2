@@ -1,0 +1,16 @@
+#!/bin/bash
+mkdir Postwork2
+cp T1.csv Postwork2
+cd Postwork2
+head T1.csv
+sed "s/01/02/g" T1.csv > T2.csv
+head T2.csv
+grep -a 40 T1.csv | head
+grep -a 40 T1.csv |wc
+grep -a 498 T1.csv > T3.csv
+Touch datos.txt
+echo Linea1 > datos.txt
+echo Linea2 >> datos.txt
+echo Linea3 >> datos.txt
+
+cat datos.txt
